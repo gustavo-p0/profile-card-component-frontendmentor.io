@@ -1,0 +1,13 @@
+.c-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--dark-cyan);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background-image: url("./assets/bg-pattern-top.svg"),
+    url("./assets/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 48vw bottom 40vh, left 45vw top 44vh;
+}
